@@ -1,5 +1,5 @@
 
-# Harry Potter e a História da Magia
+# Pedra, papel e tesoura
 
 **Número da Lista**:  11<br>
 **Conteúdo da Disciplina**: Greed<br>
@@ -11,24 +11,24 @@
 | 19/0063441  |  Ana Carolina Carvalho |
 
 ## Sobre 
-A História da Magia é talvez o assunto mais chato da escola de Magia e Bruxaria de Hogwarts. Harry Potter geralmente está dormindo durante as aulas de história, e sua pena mágica escreve as aulas para ele. O professor Binns, o professor de história de magia, dá aulas com uma voz tão entediante e monótona que tem um efeito soporífero até na pena e por isso que a pena costuma cometer erros, especialmente nas datas.
+Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokempô. 
+No jogo de Pedra, Papel, Tesoura, os jogadores devem esticar a mão, com a sua escolha. Podendo ser representado da seguinte forma:
 
-No final do semestre o professor Binns decide recolher os pergaminhos com notas dos alunos e verificá-los. Rony Weasley está em pânico: as anotações de Harry podem conter erros, mas pelo menos ele tem algumas anotações, enquanto Rony não tem nenhuma. Rony também tem dormido durante as palestras e sua pena foi comida por seu rato Perebas. Hermione Granger se recusou a dar suas anotações ao Rony, porque, em sua opinião, todos deveriam aprender por conta própria. Portanto, Rony não tem escolha a não ser copiar as anotações de Harry.
+- A mão fechada significa Pedra;
 
-Devido aos erros da pena, as datas de Harry são absolutamente confusas: os anos de rebeliões goblins e outros eventos importantes para o mundo mágico não seguem em ordem, e às vezes até datas do futuro ocorrem. Rony deseja alterar alguns dos dígitos enquanto copia as notas para que as datas fiquem em ordem cronológica (ou seja, não decrescente) e para que as notas não tenham datas  posteriores a 2011 ou  anteriores a 1000 . Para tornar a sequência resultante o mais próxima possível daquela ditada pelo Professor Binns, Rony mudará apenas um digito. Dito isso iremos ajudá-lo a resolver o problema.
+- A mão aberta significa Papel;
 
-A entrada dever ser a seguinte:
-- A primeira linha de entrada terá um inteiro _n_ ( 1 ≤ _n_ ≤ 1000 ), representando o número de datas nas anotações de Harry.
-- As próximas _n_ linhas possuirão as datas reais _y_ 1 , _y_ 2 , ..., _y_ _n_ , cada linha terá uma data. 
-- Cada data será um número inteiro de quatro dígitos ( 1000 ≤ _y_ _i_ ≤ 9999).
+- A mão com os dedos indicador e médio estendidos significa Tesoura.
 
-E o resultado deve seguir essa forma:
- - Impressão dos  _n_ números _z_ 1 , _z_ 2 , ..., _z_ _n_ ( 1000 ≤ _z_ _i_ ≤ 2011 ), que serão as datas resultantes de Rony.
- - Impressão de  cada número em uma única linha.
-- Os números _z_ _i_ deverão formar a sequência não decrescente. 
-- Cada número _z_ _i_ deve ser diferente da data _y_ _i_ correspondente em no máximo um dígito, não sendo permitido alterar o primeiro dígito de um número para 0 . 
-- Se houverem várias soluções possíveis, o resultado será qualquer uma delas. 
-- Se não houver solução, o resultado será  "Sem solução".
+O jogo consiste em várias rodadas, cada rodada é independente uma da outra. Em cada rodada, os dois jogadores mostram uma das seguintes coisas ao mesmo tempo: pedra, papel ou tesoura. Se ambos os jogadores mostraram as mesmas coisas, o resultado da rodada é um empate. Caso contrário, as seguintes regras se aplicam:
+
+* se um jogador mostrou pedra e o outro mostrou tesoura, então o jogador que mostrou pedra é considerado o vencedor e o outro é considerado perdedor;
+* se um jogador mostrou uma tesoura e o outro papel, então o jogador que mostrou uma tesoura é considerado o vencedor e o outro é considerado o perdedor;
+* se um jogador mostrou papel e o outro pedra, então o jogador que mostrou papel é considerado o vencedor e o outro é considerado perdedor.
+
+Considerando que você e mais um amigo decidiram jogar exatamente 𝑛 rodadas do jogo descrito acima. Você decidiu mostrar pedra 𝑎1 vezes, mostrar a tesoura 𝑎2 vezes e mostrar papel 𝑎3 vezes. Seu amigo decidiu mostrar pedra 𝑏1 vezes, mostrar a tesoura 𝑏2 vezes e mostrar papel 𝑏3 vezes. Porém, você e seu amigo não escolheram a sequência em que mostram as coisas. É garantido que 𝑎1+𝑎2+𝑎3= 𝑛 e 𝑏1+𝑏2+𝑏3= 𝑛. Ou seja, que jogaram a mesma quantidade de rodadas.
+
+Nossa tarefa é estimar a quantidade máxima e mínima de vezes que você pode ganhar jogando contra seu amigo! 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
