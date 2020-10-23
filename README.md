@@ -8,7 +8,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 18/0103580 |  Jonathan Jorge Barbosa Oliveira |
-| 19/0063441  |  Ana Carolina Carvalho |
+| 19/0063441  |  Ana Carolina Carvalho da Silva|
 
 ## Sobre 
 Pedra, papel e tesoura, também chamado em algumas regiões do Brasil de jokempô. 
@@ -31,7 +31,10 @@ Considerando que você e mais um amigo decidiram jogar exatamente 𝑛 rodadas d
 Nossa tarefa é estimar a quantidade máxima e mínima de vezes que você pode ganhar jogando contra seu amigo! 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+<img src="./media/img01.png">
+
+- Demais screenshots estão na sessão de Uso
 
 ## Instalação 
 
