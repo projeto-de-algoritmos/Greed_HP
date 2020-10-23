@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+  }
+
+  .padding {
+    padding-bottom: 2rem;
+  }
+  
+  .welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  
+  .welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .img-clickable:hover {
+    cursor: pointer;
+  }
+
+  .img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+  
+  
+  hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  
+  /*---Media Queries --*/
+  @media (max-width: 992px) {
+    .social a {
+      font-size: 4em;
+      padding: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .display-4 {
+      font-size: 200%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .display-4 {
+      font-size: 160%;
+    }
+  }
+  
+  /*--- Bootstrap Padding Fix --*/
+  [class*="col-"] {
+      padding: 0.7rem;
+  }
+  

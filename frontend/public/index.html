@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Pedra, Papel e Tesoura</h1>
+        </div>
+        <div class="col-12">
+            <h3>Descubra sua Probabilidade de Ganhar</h3>
+        </div>
+        <div class="col-3 text-left pt-3">
+            <label>Rodadas</label>
+            <input type="number" min="0" class="form-control" value="0" id="rounds" style="text-align: center" />
+        </div>
+        <div class="col-3 text-left pt-3">
+            <label>Chance Mínima</label>
+            <input type="number" min="0" class="form-control" disabled="disabled" value="0" id="min"
+                style="text-align: center" />
+        </div>
+        <div class="col-3 text-left pt-3">
+            <label>Chance Máxima</label>
+            <input type="number" min="0" class="form-control" disabled="disabled" value="0" id="max"
+                style="text-align: center" />
+        </div>
+        <div class="col-3 pt-5">
+            <button type="button" class="btn btn-secondary btn-md btn-block" id="submit_button">Calcular</button>
+        </div>
+        <hr>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 text-left" style="padding: 0px;">
+                    <span>Você</span>
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control" min="0" id="pedra_1" style="text-align: center" />
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control" min="0" id="papel_1" style="text-align: center" />
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control" min="0" id="tesoura_1" style="text-align: center" />
+                </div>
+            </div>
+            <div class="col-12 row">
+                <div class="col-4">
+                    <img src="img/pedra.png" id="pedra" onclick="" class="img-fluid img img-clickable" />
+                </div>
+                <div class="col-4">
+                    <img src="img/papel.png" id="papel" onclick="" class="img-fluid img img-clickable" />
+                </div>
+                <div class="col-4">
+                    <img src="img/tesoura.png" id="tesoura" onclick=""
+                        class="img-fluid img img-clickable" />
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-12 text-left" style="padding: 0px;">
+                    <span>Adversário</span>
+                </div>
+                <div class="col-4">
+                    <input type="number" class="form-control" min="0" id="pedra_2" style="text-align: center" />
+                </div>
+                <div class="col-4">
+                    <input type="number" class="form-control" min="0" id="papel_2" style="text-align: center" />
+                </div>
+                <div class="col-4">
+                    <input type="number" class="form-control" min="0" id="tesoura_2" style="text-align: center" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/index.js"></script>
+</html>
