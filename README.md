@@ -35,6 +35,7 @@ Nossa tarefa é estimar a quantidade máxima e mínima de vezes que você pode g
 <img src="./media/img01.png">
 
 - Demais screenshots estão na sessão de Uso
+- O Video de apresentação está na pasta "Media" desse repositório
 
 ## Instalação 
 
