@@ -34,12 +34,59 @@ Nossa tarefa é estimar a quantidade máxima e mínima de vezes que você pode g
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
 
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript
+**Framework**: Node
+
+É necessário a instalação do Node.
+
+Para clonar e rodar a aplicação, são necessários: [Git](https://git-scm.com), [Node](https://nodejs.org/pt-br/) instalados.
+
+Para rodar o projeto você precisará rodar os seguintes comandos no terminal do seu computador:
+
+#### Clone este repositório
+```bash
+cd ~/your/directory/
+git clone https://github.com/projeto-de-algoritmos/Greed_Pedra_Papel_Tesoura.git
+````
+
+#### Vá para o diretório da aplicação
+```bash
+cd ./Greed_Pedra_Papel_Tesoura/
+````
+
+#### Construa a aplicação
+
+Em abas separadas do terminal você deverá rodar:
+
+``` bash
+    cd Greed_Pedra_Papel_Tesoura/backend 
+    npm install
+    npm start
+```
+``` bash
+    cd Greed_Pedra_Papel_Tesoura/frontend
+    npm install
+    npm start
+```
+
+#### Acesse o seguinte link em seu navegador
+
+O servidor poderá ser acessado em http://localhost:3000 enquanto o frontend será acessado em http://localhost:8080
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+Ao acessar a página inicial, informe a quantidade de rodadas que serão jogadas. 
+
+<img src="./media/img01.png">
+
+Após isso, adicione a quantidade de vezes que você pretendo usar a Pedra, Tesoura e Papel. Logo abaixo, insira os valores do seu amigo. 
+
+<img src="./media/img02.png">
+
+Para ter o resultado de chances máximas e mínimas de ganhar, selecione a opção de "Calcular"
+
+<img src="./media/img03.png">
 
 
 ## Contribuintes 
