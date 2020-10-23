@@ -16,7 +16,7 @@ button.addEventListener("click", (e) => {
     rounds = rounds.value
     let jogador1 = [pedra_1.value, papel_1.value, tesoura_1.value]
     let jogador2 = [pedra_2.value, papel_2.value, tesoura_2.value]
-    console.log({ rounds, jogador1, jogador2 })
+    //console.log({ rounds, jogador1, jogador2 })
 
     e.preventDefault();
     fetch('http://localhost:3000/calc', {
